@@ -1,0 +1,227 @@
+@font-face
+{
+	font-family: krist;
+	src:url(fonts/Poppins-Regular.ttf);
+}
+
+html,body
+{
+	height:100%;
+	width:100%;
+	font-family: krist;
+	color: #222;
+}
+.my
+{
+
+	
+	border-radius: 42%;
+	width:100%;
+	height: auto;
+	box-shadow: 2px 2px 40px 1px black;
+}
+.display-4
+{
+	color: maroon;
+	
+}
+.col1
+{
+	color: green;
+}
+.color1
+{
+	top:50%;
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 300%;
+	text-align: center;
+}
+.col11
+{
+	color: #FF5722;
+}
+.navbar
+{
+	padding: :.8rem;
+}
+.navbar-nav li
+{
+	padding-right: 20px;
+}
+.nav-link
+{
+	font-size: 1.1em !important;
+}
+#col
+{
+	font-weight: bold;
+	color: maroon;
+}
+.carousel-inner img
+{
+	height: 100%;
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1
+{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 200%;
+	color: red;	
+	text-shadow: 1px 2px 10px #000;
+}
+.btn-primary
+{
+	background-color: #6648b1;
+	border:1px solid #563d76;
+}
+.jumbotron
+{
+	padding: 1rem;
+	background-color: lightgrey;
+}
+.padding
+{
+	padding-bottom: 2rem; 
+}
+.welcome
+{
+	width: 75%;
+	padding-top: 2rem;
+	margin:0  auto;
+}
+footer
+{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+hr.light
+{
+	background-color: #d5d5d5;
+}
+hr
+{
+	background-color: black;
+}
+
+/*MEDIA QUEERIES*/
+@media (max-width: 1024px)
+{
+	.my
+{
+	border-radius: 50%;
+	width:50%;
+	height: auto;
+	box-shadow: 2px 2px 40px 1px black;
+}
+}
+@media (max-width: 992px)
+{
+
+}
+
+@media (max-width: 768px)
+{
+	.carousel-caption
+{
+	top: 50%;
+	
+}
+.carousel-caption h1
+{
+	font-size: 300%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 200%;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 10px #000;
+}
+.carousel-caption .btn
+{
+	font-size: 95%;
+
+}
+.color1
+{
+	top:60%;
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 150%;
+	text-align: center;
+}
+.my
+{
+	border-radius: 50%;
+	width:60%;
+	height: auto;
+	box-shadow: 2px 2px 40px 1px black;
+}
+}
+
+@media (max-width: 510px)
+{
+		.carousel-caption
+{
+	top: 41%;
+	
+}
+.carousel-caption h1
+{
+	font-size: 130%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 70%;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 10px #000;
+}
+.carousel-caption .btn
+{
+	font-size: 40%;
+
+}
+.display-4
+{
+	font-size: 200%;
+
+}
+.hw
+{
+	font-size: 100%;
+}
+.cen
+{
+	align-self: center;
+}
+.color1
+{
+	top:60%;
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 100%;
+	text-align: center;
+}
+.my
+{
+	border-radius: 50%;
+	width:20%;
+	height: auto;
+	box-shadow: 2px 2px 40px 3px black;
+}
+}
